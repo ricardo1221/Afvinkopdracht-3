@@ -104,12 +104,12 @@ public class Afvinkopdracht3 extends JFrame implements ActionListener {
         Container window = getContentPane();
         window.setLayout(new FlowLayout());
         panel = new JPanel();
-        panel.setPreferredSize(new Dimension(400, 150));
+        panel.setPreferredSize(new Dimension(300, 140));
         panel.setBackground(Color.white);
         window.add(panel);
         /* (9) Zet hier de tekst Run! op de button */
         button =new JButton();
-        button.setText("Run!");
+        button.setText("Ren!");
         window.add(button);
         button.addActionListener(this);
     }
